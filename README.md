@@ -10,5 +10,5 @@ Update the included config.ini template file with the sender email address, asso
 ## Usage
     checkIP.py
     
-It is suggested to schedule a cron job to run the script periodically check for a new IP. 
-    
+It is suggested to schedule a cron job to run the script, periodically checking for a new IP. 
+    0 * * * * python /bin/checkIP.py 
